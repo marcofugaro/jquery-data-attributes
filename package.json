@@ -1,0 +1,30 @@
+{
+  "name": "jquery-data-attributes",
+  "version": "1.0.0",
+  "description": "A fixed jQuery .data() method.",
+  "main": "dataAttributes.jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcofugaro/jquery-data-attributes.git"
+  },
+  "keywords": [
+    "jquery",
+    "data",
+    "attributes",
+    "attr"
+  ],
+  "author": "Marco Fugaro <marco.fugaro@gmail.com> (http://marcofugaro.it/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcofugaro/jquery-data-attributes/issues"
+  },
+  "homepage": "https://github.com/marcofugaro/jquery-data-attributes#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.2"
+  }
+}
