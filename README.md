@@ -5,11 +5,15 @@ It works like the jquery [`.data()`](https://api.jquery.com/jquery.data/) method
 
 #Usage
 
-`<div id="foo" data-example="value">…</div>`
+```html
+<div id="foo" data-example="value">…</div>
+```
 
-    $('#foo').dataAttributes() // { example: 'value' }
-    $('#foo').dataAttributes('example') // 'value'
-    $('#foo').dataAttributes('bar', 'another value') // sets the attribute and returns the jquery element
+```js
+$('#foo').dataAttributes() // { example: 'value' }
+$('#foo').dataAttributes('example') // 'value'
+$('#foo').dataAttributes('bar', 'another value') // sets the attribute and returns the element
+```
 
 You can also require it with bower
 
