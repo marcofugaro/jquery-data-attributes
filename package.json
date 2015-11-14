@@ -16,6 +16,7 @@
     "attributes",
     "attr"
   ],
+  "main": "dataAttributes.jquery.min.js",
   "author": "Marco Fugaro <marco.fugaro@gmail.com> (http://marcofugaro.it/)",
   "license": "MIT",
   "bugs": {
